@@ -1,4 +1,4 @@
-<style>
+
     body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -39,6 +39,27 @@
         text-decoration: none;
     }
 
+    ol {
+        margin: 30px;
+        padding: 20px;
+        background-color: #ff5050;
+
+    }
+
+
+    ol li {
+        margin: 10px;
+        padding: 20px;
+        background-color: #660000;
+        color: #fff;
+        white-space: nowrap;
+    }
+
+    #list {
+        margin: 20px;
+        padding: 50px;
+        background-color: #ff9999;
+    }
     main {
         padding: 1em;
     }
@@ -56,4 +77,3 @@
         width: 100%;
         bottom: 0;
     }
-</style>

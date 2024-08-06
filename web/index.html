@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testová stránka</title>
+    <style>
+        body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+            }
+
+        div {
+            border-style: solid;
+            border-width: 2px  ;
+            padding: 50px;
+            margin: 50px;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 1em;
+        }
+
+        section {
+            margin-bottom: 2em;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="main-title">Vítejte na mé stránce</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Domů</a></li>
+                <li><a href="#about">O mně</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div style="background-color: skyblue;">
+            <section id="home">
+                <h2>Domů</h2>
+                <p>Toto je úvodní sekce vaší stránky.</p>
+            </section>
+        </div>
+
+        <div>    
+            <section id="about">
+                <h2>O mně</h2>
+                <p>Zde můžete napsat něco o sobě nebo o svém projektu.</p>
+            </section>
+        </div>
+
+        <div>
+            <section id="contact">
+                <h2>Kontakt</h2>
+                <p>Kontaktní informace nebo formulář pro návštěvníky.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vaše Jméno. Všechna práva vyhrazena.</p>
+    </footer>
+
+</body>
+</html>
